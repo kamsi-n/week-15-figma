@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    position: absolute;
+    width: 137px;
+    height: 52px;
+    left: 557px;
+    top: 78px;
+    color: #8F94FF;
+    font-family: 'Satoshi', sans-serif;                                             
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -3px;
+    word-spacing: 10px;
+} 
+
+h1 {
+    position: absolute;
+    width: 622px;
+    height: 160px;
+    left: 314px;
+    top: 146px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Satoshi';
+    font-weight: 500;
+    line-height: 95%;
+} 
+
+img {
+    height: 257px;
+    width: 209px;
+    margin: 0 20px;
+}
+
+p {
+    padding: 6px;
+    margin-left: 15px;
+    font-family: 'Clash Display', sans-serif;
+    width: 114px;
+    height: 19px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    color: #FFFFFF;                                              
+}
+
+.card1 {
+    color: white;
+    position: absolute;
+    width: 209.27px;
+    height: 317.26px;
+    left: 42px;
+    top: 386px;
+}
+
+.card2 {
+    color: white;
+    position: absolute;
+    width: 209.27px;
+    height: 317.26px;
+    left: 289.27px;
+    top: 441px;
+}
+
+.card3 {
+    color: white;
+    position: absolute;
+    width: 209.27px;
+    height: 317.26px;
+    left: 536.55px;
+    top: 367px;
+}
+
+.card4 {
+    color: white;
+    position: absolute;
+    width: 209.27px;
+    height: 317.26px;
+    left: 785px;
+    top: 411px;
+}
+
+.card5 {
+    color: white;
+    position: absolute;
+    width: 209.27px;
+    height: 317.26px;
+    left: 1032.27px;
+    top: 360px;
+}
+
+@media screen and (max-width: 768px) {
+    h3 {
+        left: 365px;
+        font-size: 3.906vw;
+    }
+
+    h1 {
+        left: 90px;
+        font-size: 11vw;
+    }
+
+    .card1 {
+        left: 290px;
+        top: 396px;
+    }
+
+    .card2 {
+        left: 290px;
+        top: 746px;
+    }
+
+    .card3 {
+        left: 290px;
+        top: 1096px;
+    }
+
+    .card4 {
+        left: 290px;
+        top: 1446px;
+    }
+
+    .card5 {
+        left: 290px;
+        top: 1796px;
+    }
+}
